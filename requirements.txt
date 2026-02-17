@@ -1,0 +1,11 @@
+streamlit
+streamlit-drawable-canvas
+paddlepaddle
+paddleocr
+simple-lama-inpainting
+pypdfium2
+Pillow
+numpy
+opencv-python-headless
+python-dotenv
+watchdog
