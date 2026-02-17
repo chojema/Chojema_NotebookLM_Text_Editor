@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Desktop_Commander__list_directory",
+      "mcp__Desktop_Commander__read_file",
+      "mcp__Desktop_Commander__start_process",
+      "mcp__Desktop_Commander__read_process_output",
+      "mcp__Windows-MCP__Shell",
+      "mcp__Windows-MCP__Wait",
+      "mcp__Desktop_Commander__start_search",
+      "mcp__Desktop_Commander__get_more_search_results",
+      "mcp__Desktop_Commander__get_file_info",
+      "mcp__Desktop_Commander__create_directory",
+      "mcp__Windows-MCP__App",
+      "mcp__Windows-MCP__Snapshot"
+    ]
+  }
+}
