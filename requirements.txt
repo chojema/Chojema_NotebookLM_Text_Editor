@@ -1,7 +1,6 @@
 streamlit
 streamlit-drawable-canvas
-paddlepaddle
-paddleocr
+easyocr
 simple-lama-inpainting
 pypdfium2
 Pillow
