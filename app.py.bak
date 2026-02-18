@@ -550,7 +550,7 @@ current_year = datetime.now().year
 st.sidebar.markdown(
     f"""
 <div style="margin-top: 20px; padding: 0 10px;">
-  <a href="https://www.youtube.com/watch?v=1-6OuO-DsuQ" target="_blank" style="text-decoration: none;">
+  <a href="https://cantips.com" target="_blank" style="text-decoration: none;">
     <button style="
       width: 100%;
       padding: 10px;

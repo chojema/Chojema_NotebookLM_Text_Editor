@@ -7,10 +7,16 @@ env/
 __pycache__/
 *.pyc
 
-# 시스템 파일
+# 시스템 및 로그 파일
 .DS_Store
 Thumbs.db
+Microsoft/
 
-# 로컬 관리용
+# 로컬 개발 및 AI 도구 상태 정보
 .claude/
+docs/
 *.bak
+
+# 임시 파일
+package-lock.json
+
