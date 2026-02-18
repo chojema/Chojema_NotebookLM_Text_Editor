@@ -6,6 +6,7 @@ from datetime import datetime
 
 import pypdfium2 as pdfium
 import streamlit as st
+import torch
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
@@ -547,9 +548,13 @@ if uploaded_file:
             st.session_state.current_selection = None
 
 current_year = datetime.now().year
+device_type = "GPU 🚀" if torch.cuda.is_available() else "CPU 🐢"
 st.sidebar.markdown(
     f"""
 <div style="margin-top: 20px; padding: 0 10px;">
+  <div style="text-align: center; font-size: 13px; color: #6f7482; margin-bottom: 10px; background: #eef2f9; padding: 6px; border-radius: 6px;">
+    실행 모드: <strong>{device_type}</strong>
+  </div>
   <a href="https://www.youtube.com/watch?v=1-6OuO-DsuQ" target="_blank" style="text-decoration: none;">
     <button style="
       width: 100%;
