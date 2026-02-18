@@ -10,3 +10,7 @@ __pycache__/
 # 시스템 파일
 .DS_Store
 Thumbs.db
+
+# 로컬 관리용
+.claude/
+*.bak

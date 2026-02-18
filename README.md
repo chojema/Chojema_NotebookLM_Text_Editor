@@ -19,7 +19,7 @@ Google NotebookLM 등을 활용해 만든 발표용 슬라이드 PDF나 이미�
    `./run.sh`
 
 ## 필수 요구 사항
-이 프로그램을 실행하려면 컴퓨터에 **Python(파이썬)**이 설치되어 있어야 합니다.
+이 프로그램을 실행하려면 컴퓨터에 **Python**(파이썬)이 설치되어 있어야 합니다.
 - [Python 공식 다운로드](https://www.python.org/downloads/)
 - 설치할 때 **"Add Python to PATH"** 체크박스를 반드시 체크해주세요!
 
