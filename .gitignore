@@ -14,8 +14,8 @@ Microsoft/
 
 # 로컬 개발 및 AI 도구 상태 정보
 .claude/
-docs/
 *.bak
+.bkit-docs/
 
 # 임시 파일
 package-lock.json
